@@ -33,7 +33,7 @@ function App() {
     <div className="App">
       <input
         placeholder="Room Number..."
-        onCHange={(event) => {
+        onChange={(event) => {
           setRoom(event.target.value);
         }}
     />
